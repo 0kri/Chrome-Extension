@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.input-txt {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1.7px solid #5f9341;
+}
+
+#input-btn {
+    background: #5f9341;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
