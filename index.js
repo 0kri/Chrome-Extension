@@ -6,5 +6,17 @@ let myLeads = []
 
 inputBtn.addEventListener("click", () => {
     myLeads.push(inputEl.value)
-    console.log(myLeads)
+    renderLeads()
 })
+
+
+function renderLeads() {
+    let li;
+    for (let i = 0; i < myLeads.length; i++) {
+        li = document.createElement("li")
+        li.textContent = myLeads[i]
+    }
+    ulEl.appendChild(li)
+}
+
+
